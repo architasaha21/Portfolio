@@ -56,16 +56,14 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4 relative">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-500 bg-clip-text text-transparent leading-tight animate-pulse drop-shadow-2xl">
-            Hi, I'm Archita Saha
+            Hi, I'm Archita 
           </h1>
 
           {/* Typing effect underline */}
           <div className="w-32 h-1 bg-gradient-to-r from-blue-500 to-cyan-400 mx-auto mb-6 rounded-full opacity-80 animate-pulse shadow-lg shadow-blue-500/50"></div>
 
           <p className="text-gray-300 text-lg mb-8 max-w-lg mx-auto leading-relaxed drop-shadow-lg">
-            I'm a <span className="text-blue-400 font-semibold glow-text">full-stack developer</span> who loves crafting clean, scalable web
-            applications. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
+           I’m a <span className="text-blue-400 font-semibold glow-text">full-stack developer</span> who is also exploring <span className="text-blue-500 font-semibold glow-text">ML</span> and solving <span className="text-blue-600 font-semibold glow-text">algorithmic challenges</span>.
           </p>
           
           <div className="flex justify-center space-x-4">
@@ -78,8 +76,9 @@ export const Home = () => {
             </a>
 
             <a
-            // change HEREEEEE
-              href="#contact" 
+              href="https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="border-2 border-blue-500/50 text-blue-400 py-3 px-8 rounded-lg font-medium transition-all duration-300 relative overflow-hidden hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(59, 130, 246, 0.3)] hover:bg-blue-500/10 hover:border-blue-400 group shadow-xl"
             >
               <span className="relative z-10">Download CV</span>
