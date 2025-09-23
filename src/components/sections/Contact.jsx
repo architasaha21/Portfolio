@@ -88,11 +88,11 @@ export const Contact = () => {
             </div>
             <div className="flex items-center gap-4">
               <Mail className="text-blue-400" />
-              <p className="text-gray-300">archita@example.com</p>
+              <p className="text-gray-300">archita.saha2106@gmail.com</p>
             </div>
             <div className="flex items-center gap-4">
               <Phone className="text-blue-400" />
-              <p className="text-gray-300">+91 98765 43210</p>
+              <p className="text-gray-300">+91 7980337147</p>
             </div>
 
             {/* Social Links */}
@@ -100,7 +100,7 @@ export const Contact = () => {
               <h3 className="text-lg font-semibold text-white mb-3">Find me online</h3>
               <div className="flex gap-5">
                 <a
-                  href="https://github.com/archita"
+                  href="https://github.com/architasaha21"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-white/5 hover:bg-blue-500/20 text-gray-300 hover:text-white transition"
@@ -108,7 +108,7 @@ export const Contact = () => {
                   <Github size={22} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/archita"
+                  href="https://www.linkedin.com/in/architasaha21/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-white/5 hover:bg-blue-500/20 text-gray-300 hover:text-white transition"
@@ -116,7 +116,7 @@ export const Contact = () => {
                   <Linkedin size={22} />
                 </a>
                 <a
-                  href="https://leetcode.com/archita"
+                  href="https://leetcode.com/u/noobcoder1260/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-white/5 hover:bg-blue-500/20 text-gray-300 hover:text-white transition"
@@ -124,7 +124,7 @@ export const Contact = () => {
                   <SiLeetcode size={22} />
                 </a>
                 <a
-                  href="https://x.com/archita"
+                  href="https://x.com/orcheeta"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-white/5 hover:bg-blue-500/20 text-gray-300 hover:text-white transition"

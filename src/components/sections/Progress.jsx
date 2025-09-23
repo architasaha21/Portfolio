@@ -81,13 +81,13 @@ export const CodingJourney = () => {
                       <span className="text-white font-bold text-lg">LC</span>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-white">Amitkumar90</h3>
-                      <p className="text-gray-400 text-sm">#358547</p>
+                      <h3 className="text-xl font-bold text-white">noobcoder1260</h3>
+                      <p className="text-gray-400 text-sm">#754,407</p>
                     </div>
                   </div>
                   <div className="text-right">
                     <div className="text-3xl font-bold text-white bg-gray-800/50 rounded-full w-16 h-16 flex items-center justify-center border-2 border-orange-400/30">
-                      318
+                      180
                     </div>
                   </div>
                 </div>
@@ -96,8 +96,8 @@ export const CodingJourney = () => {
                 <div className="space-y-4">
                   {[
                     { level: 'Easy', solved: 100, total: 901, color: 'bg-green-500' },
-                    { level: 'Medium', solved: 166, total: 1920, color: 'bg-orange-500' },
-                    { level: 'Hard', solved: 52, total: 870, color: 'bg-red-500' }
+                    { level: 'Medium', solved: 70, total: 1920, color: 'bg-orange-500' },
+                    { level: 'Hard', solved: 15, total: 870, color: 'bg-red-500' }
                   ].map((item, index) => (
                     <div key={item.level}>
                       <div className="flex justify-between items-center mb-2">
@@ -147,17 +147,19 @@ export const CodingJourney = () => {
               <div className="lg:pl-8">
                 <h3 className="text-3xl font-bold text-blue-400 mb-6">My LeetCode Journey</h3>
                 <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-                  I have solved <span className="text-blue-400 font-bold">318 problems</span>, with a ranking of{' '}
-                  <span className="text-cyan-400 font-bold">#358547</span> globally. My max streak is{' '}
-                  <span className="text-green-400 font-bold">45 days!</span>
+                  I have solved <span className="text-blue-400 font-bold">180 problems</span>, with a ranking of{' '}
+                  <span className="text-cyan-400 font-bold">#754,407</span> globally. My max streak is{' '}
+                  <span className="text-green-400 font-bold">90 days!</span>
                 </p>
                 <p className="text-gray-400 mb-8 leading-relaxed">
-                  My expertise spans across topics like Dynamic Programming, Graphs, and more. I keep challenging 
+                  My expertise spans across topics like Dynamic Programming, Trees, Linked Lists and more. I keep challenging 
                   myself daily to grow as a competitive programmer and strengthen my problem-solving skills.
                 </p>
-                <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-xl font-medium hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300">
-                  View My Profile
-                </button>
+                <a href="https://leetcode.com/u/noobcoder1260/" target="_blank" rel="noopener noreferrer">
+                    <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-xl font-medium hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300">
+                        View My Profile
+                    </button>
+                </a>
               </div>
             </div>
           </div>
@@ -191,7 +193,7 @@ export const CodingJourney = () => {
                   ))}
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-400 text-sm">1382 contributions in the last year</span>
+                  <span className="text-gray-400 text-sm">558 contributions in the last year</span>
                   <div className="flex items-center space-x-2 text-xs text-gray-500">
                     <span>Less</span>
                     <div className="flex space-x-1">
@@ -224,7 +226,7 @@ export const CodingJourney = () => {
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-white mb-1">GitHub Avatar</h3>
-                    <p className="text-gray-400">@architasaha</p>
+                    <p className="text-gray-400">@archita21</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-6">
@@ -233,7 +235,7 @@ export const CodingJourney = () => {
                       <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                       </svg>
-                      <span className="text-sm">Followers</span>
+                      <span className="text-sm">5 Followers</span>
                     </div>
                   </div>
                   <div className="text-center">
@@ -241,12 +243,14 @@ export const CodingJourney = () => {
                       <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
                       </svg>
-                      <span className="text-sm">Repos</span>
+                      <span className="text-sm">51 Repos</span>
                     </div>
                   </div>
+                  <a href="https://github.com/architasaha21" target="_blank" rel="noopener noreferrer">
                   <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-xl font-medium hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300">
-                    View Profile
-                  </button>
+                        View My Profile
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
